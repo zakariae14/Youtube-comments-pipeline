@@ -26,7 +26,7 @@ default_args = {
 dag = DAG(
     'Youtube_dag',
     default_args=default_args,
-    description='Our first DAG with ETL process!',
+    description='DAG with ETL process!',
     schedule=timedelta(days=1),
 )
 
