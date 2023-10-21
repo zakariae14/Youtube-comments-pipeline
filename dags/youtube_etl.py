@@ -8,7 +8,7 @@ def youtube_etl_fct():
     api_key = 'AIzaSyCY1_YA89SH1L7wu6OPUXvEI6B6-r0JoYg'
     
     # Video ID of the YouTube video
-    video_id = 'UIZdjAKadc8'
+    video_id = 'V2eW5jGQe8I'
     
     # Create a service instance
     youtube = build('youtube', 'v3', developerKey=api_key)
